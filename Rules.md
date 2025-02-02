@@ -1,11 +1,10 @@
-### En celles nye status bestemmes av følgende regler:
+### A cell's new status is determined by the following rules:
 
-- Dersom cellens nåværende status er “levende”:
+- If the cell's current status is "alive":
 
-  - Ved færre enn to levende naboceller dør cellen (underpopulasjon).
-  - Ved to eller tre levende naboceller vil cellen leve videre.
-  - Hvis cellen har mer enn tre levende naboceller vil den dø (overpopulasjon)
+  - With fewer than two living neighboring cells, the cell dies (underpopulation).
+  - With two or three living neighboring cells, the cell survives.
+  - If the cell has more than three living neighboring cells, it dies (overpopulation).
 
-- Dersom cellen er “død”:
-  - Cellens status blir “levende” (reproduksjon) dersom den har nøyaktig tre
-    levende naboer.
+- If the cell is "dead":
+  - The cell becomes "alive" (reproduction) if it has exactly three living neighbors.
